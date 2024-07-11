@@ -62,6 +62,7 @@ const I18N_CONF = {
     roleManagement: '角色管理',
     privilegeManagement: '权限管理',
     consoleClosed: '控制台已关闭',
+    jasyptEncryptor: 'Jasypt加密',
     settingCenter: '设置中心',
   },
   Password: {

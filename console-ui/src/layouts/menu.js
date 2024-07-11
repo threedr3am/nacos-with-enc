@@ -79,6 +79,10 @@ const clusterMenu = {
     },
   ],
 };
+const jasyptEncryptorMenu = {
+  key: 'jasyptEncryptor',
+  url: '/jasyptEncryptor',
+};
 const settingMenu = {
   key: 'settingCenter',
   url: '/settingCenter',
@@ -99,6 +103,7 @@ export default function(model) {
   }
   result.push(namespaceMenu);
   result.push(clusterMenu);
+  result.push(jasyptEncryptorMenu);
   result.push(settingMenu);
   return result.filter(item => item);
 }

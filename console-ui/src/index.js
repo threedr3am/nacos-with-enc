@@ -50,6 +50,7 @@ import UserManagement from './pages/AuthorityControl/UserManagement';
 import PermissionsManagement from './pages/AuthorityControl/PermissionsManagement';
 import RolesManagement from './pages/AuthorityControl/RolesManagement';
 import Welcome from './pages/Welcome/Welcome';
+import JasyptEncryptor from './pages/JasyptEncryptor';
 import SettingCenter from './pages/SettingCenter';
 
 import reducers from './reducers';
@@ -96,6 +97,7 @@ const MENU = [
   { path: '/userManagement', component: UserManagement },
   { path: '/rolesManagement', component: RolesManagement },
   { path: '/permissionsManagement', component: PermissionsManagement },
+  { path: '/JasyptEncryptor', component: JasyptEncryptor },
   { path: '/settingCenter', component: SettingCenter },
 ];
 
